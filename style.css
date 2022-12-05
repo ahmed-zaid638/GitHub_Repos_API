@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mian-color: rgb(28, 46, 209);
+}
+.page {
+}
+header {
+  background-color: var(--mian-color);
+  box-shadow: 5px 5px 10px 10px rgb(245, 245, 248);
+  padding: 30px 0;
+}
+header h1 {
+  background-color: rgb(239, 240, 245);
+  width: fit-content;
+  margin: auto;
+  color: var(--mian-color);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px rgb(7, 25, 185);
+}
+.page .content {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.page .content .left {
+  width: 40%;
+}
+.page .content .left .card {
+  border: 1px rgb(199, 194, 191) solid;
+  margin-bottom: 20px;
+}
+
+.page .content .left h3 {
+  color: white;
+  background: var(--mian-color);
+  padding: 10px;
+}
+
+.page .content .left .card form label {
+  display: block;
+  padding: 10px 0 0 10px;
+}
+.page .content .left .card form input {
+  display: block;
+  padding: 10px 8px;
+  margin: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  border: 1px solid rgb(228, 216, 216);
+}
+.page .content .left .card form input:focus {
+  outline: 1px solid rgb(228, 216, 216);
+}
+.page .content .left .card form button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 20px 10px;
+  padding: 10px;
+  background-color: rgb(229, 233, 236);
+  border: 1px solid rgb(228, 216, 216);
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.content .card .langs {
+  display: flex;
+  flex-direction: column;
+}
+.content .card .langs button {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px rgb(199, 194, 191) solid;
+  background-color: rgb(229, 233, 236);
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.content .right {
+  width: 60%;
+  margin-left: 40px;
+}
+
+.content .right .search-item {
+  font-size: 20px;
+  margin-bottom: 10px;
+ text-transform: uppercase;
+}
+.right .repos .repo-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 10px;
+}
+.content .right .repos {
+
+  
+}
+
+.content .right .repos .repo-item {
+  text-decoration: none;
+  color: white;
+  background-color: var(--mian-color);
+  margin-bottom: 15px;
+  
+
+
+}
